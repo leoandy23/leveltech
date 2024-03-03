@@ -1,0 +1,36 @@
+.header {
+  background-color: var(--primary-color);
+}
+
+.search-container {
+  position: relative;
+}
+
+.search-input {
+  width: 100%;
+  padding-left: 30px;
+}
+
+.search-button {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 30px;
+  height: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.search-icon {
+  color: #333; /* Color del icono de búsqueda */
+  font-size: 18px; /* Tamaño del icono */
+}
+
+.search-input::placeholder {
+  padding-left: 30px;
+}
+
+.nav-link {
+  cursor: pointer;
+}
