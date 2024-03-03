@@ -8,6 +8,7 @@ import {
 import HomePage from "./pages/HomePage";
 import Header from "./components/sections/Header";
 import Footer from "./components/sections/Footer";
+import AuditoriaInformatica from "./pages/services/AuditoriaInformatica";
 
 function App() {
   return (
@@ -16,6 +17,10 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route
+            path="/leveltech/auditoria-informatica"
+            element={<AuditoriaInformatica />}
+          />
         </Routes>
       </main>
       <Footer></Footer>
