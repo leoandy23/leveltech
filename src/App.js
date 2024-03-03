@@ -9,6 +9,7 @@ import HomePage from "./pages/HomePage";
 import Header from "./components/sections/Header";
 import Footer from "./components/sections/Footer";
 import AuditoriaInformatica from "./pages/services/AuditoriaInformatica";
+import NotFoundPage from "./pages/404/NotFoundPage";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             path="/auditoria-informatica"
             element={<AuditoriaInformatica />}
           />
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </main>
       <Footer></Footer>
