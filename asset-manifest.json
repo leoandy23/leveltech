@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/leveltech/static/css/main.13e9eabe.css",
-    "main.js": "/leveltech/static/js/main.1328299a.js",
+    "main.js": "/leveltech/static/js/main.27b05f83.js",
     "static/js/453.931b2d49.chunk.js": "/leveltech/static/js/453.931b2d49.chunk.js",
     "index.html": "/leveltech/index.html",
     "main.13e9eabe.css.map": "/leveltech/static/css/main.13e9eabe.css.map",
-    "main.1328299a.js.map": "/leveltech/static/js/main.1328299a.js.map",
+    "main.27b05f83.js.map": "/leveltech/static/js/main.27b05f83.js.map",
     "453.931b2d49.chunk.js.map": "/leveltech/static/js/453.931b2d49.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.13e9eabe.css",
-    "static/js/main.1328299a.js"
+    "static/js/main.27b05f83.js"
   ]
 }
