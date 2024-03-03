@@ -9,7 +9,6 @@ import HomePage from "./pages/HomePage";
 import Header from "./components/sections/Header";
 import Footer from "./components/sections/Footer";
 import AuditoriaInformatica from "./pages/services/AuditoriaInformatica";
-import NotFoundPage from "./pages/404/NotFoundPage";
 
 function App() {
   return (
@@ -17,12 +16,11 @@ function App() {
       <Header></Header>
       <main>
         <Routes>
-          <Route exact path="./" element={<HomePage />} />
+          <Route exact path="/" element={<HomePage />} />
           <Route
-            path="./auditoria-informatica"
+            path="/auditoria-informatica"
             element={<AuditoriaInformatica />}
           />
-          <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </main>
       <Footer></Footer>
