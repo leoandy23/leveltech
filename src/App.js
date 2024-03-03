@@ -17,9 +17,9 @@ function App() {
       <Header></Header>
       <main>
         <Routes>
-          <Route exact path="/" element={<HomePage />} />
+          <Route exact path="./" element={<HomePage />} />
           <Route
-            path="/auditoria-informatica"
+            path="./auditoria-informatica"
             element={<AuditoriaInformatica />}
           />
           <Route path="*" element={<NotFoundPage />} />
