@@ -21,7 +21,7 @@ const Header = () => {
     <header>
       <div className="header">
         <div className="row m-0 justify-content-between align-items-center">
-          <a className="navbar-brand col-12 col-md-6" href="/leveltech/">
+          <a className="navbar-brand col-12 col-md-6" href="./">
             <img src={images["LeveltechLogo.png"]} alt="Logo leveltech" />
           </a>
 
@@ -66,7 +66,7 @@ const Header = () => {
                     location.pathname === "/" ? "nav-link active" : "nav-link"
                   }
                   aria-current="page"
-                  href="/leveltech/">
+                  href="./">
                   INICIO
                 </a>
               </li>
@@ -85,30 +85,24 @@ const Header = () => {
                           ? "dropdown-item active"
                           : "dropdown-item"
                       }
-                      href="/leveltech/auditoria-informatica">
+                      href="./auditoria-informatica">
                       Auditoría Informática y Riesgo Operativo
                     </a>
                   </li>
                   <li>
-                    <a
-                      className="dropdown-item"
-                      href="/leveltech/asesoria-en-seguridad">
+                    <a className="dropdown-item" href="./asesoria-en-seguridad">
                       Asesoría en Seguridad Informática
                     </a>
                   </li>
 
                   <li>
-                    <a
-                      className="dropdown-item"
-                      href="/leveltech/implantacion-planes">
+                    <a className="dropdown-item" href="./implantacion-planes">
                       Implantación de Planes de Continuidad (BCP)
                     </a>
                   </li>
 
                   <li>
-                    <a
-                      className="dropdown-item"
-                      href="/leveltech/soluciones-e-business">
+                    <a className="dropdown-item" href="./soluciones-e-business">
                       Soluciones e-Business
                     </a>
                   </li>
@@ -116,7 +110,7 @@ const Header = () => {
                   <li>
                     <a
                       className="dropdown-item"
-                      href="/leveltech/evaluacion-integridad-aplicaciones">
+                      href="./evaluacion-integridad-aplicaciones">
                       Evaluación de la Integridad de Aplicaciones
                     </a>
                   </li>
@@ -124,29 +118,29 @@ const Header = () => {
                   <li>
                     <a
                       className="dropdown-item"
-                      href="/leveltech/apoyo-servicios-complementarios-it">
+                      href="./apoyo-servicios-complementarios-it">
                       Apoyo en Servicios Complementarios para IT
                     </a>
                   </li>
                 </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/leveltech/sistemas">
+                <a className="nav-link" href="./sistemas">
                   SISTEMAS
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/leveltech/soluciones-moviles">
+                <a className="nav-link" href="./soluciones-moviles">
                   SOLUCIONES MÓVILES
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/leveltech/clientes">
+                <a className="nav-link" href="./clientes">
                   CLIENTES
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/leveltech/contacto">
+                <a className="nav-link" href="./contacto">
                   CONTÁCTANOS
                 </a>
               </li>
